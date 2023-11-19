@@ -40,6 +40,7 @@ models:
     transform:
       schema: transform
       materialized: view
+      +snowflake_warehouse: 
     mart:
       schema: mart
       materialized: view
